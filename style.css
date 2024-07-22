@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "minecraft";
+  src: url(./MinecraftTen-VGORe.ttf);
+}
+body {
+  margin: 0;
+  padding: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: gray;
+  overflow: hidden;
+
+  background: rgb(31, 31, 31);
+}
+
+#canvas {
+  background-image: url(img/background.png);
+  background-size: cover;
+
+  border-radius: 1vh;
+
+  box-shadow: 0vh 0vh 5vh 0.2vh rgb(0, 0, 0);
+}
