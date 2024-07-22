@@ -1,6 +1,6 @@
 class Sensors {
   constructor(pipes) {
-    this.sensorsCount = 7;
+    this.sensorsCount = 9;
     this.raySpread = 25;
     this.rayLength = 400;
     this.rays = [];

@@ -4,6 +4,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = 620;
 
 const bird = new Bird();
+
 const pipes = [];
 var isAlive = true;
 const pipesCount = 200;
@@ -53,7 +54,7 @@ function animate(time) {
     }
 
     if (pipe.colliding(bird)) {
-      // isAlive = false;
+      isAlive = false;
     }
   });
 
